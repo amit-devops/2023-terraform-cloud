@@ -1,4 +1,4 @@
-name: Terraform-Apply-Infra-Apply-
+name: Terraform-Apply-Infra-Apply
 
 on:
   push:

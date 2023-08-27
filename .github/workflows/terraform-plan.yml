@@ -1,4 +1,4 @@
-name: Terraform-Plan-Incline-Infra-Plan
+name: Terraform-Plan-Incline-Infra-Plan-
 
 on:
   push:
