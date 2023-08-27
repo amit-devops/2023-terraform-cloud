@@ -1,4 +1,4 @@
-name: Terraform-Plan-Incline-Infra-Plan-
+name: Terraform-Plan-Incline-Infra-Plan
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
       - name: Terraform Init
         id: init
         run: terraform init -no-color
-git@github.com:amit-devops/2023-terraform-cloud.git
+
       - name: Terraform Format
         id: fmt
         run: terraform fmt -check -no-color
